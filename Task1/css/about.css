@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    }
+    
+     .navigation a{
+       text-decoration: none;
+       color: rgb(255, 255, 255);
+    
+    }
+    .navigation a:hover{
+    color: rgb(207, 204, 204)  ;
+    }
+    li{
+        list-style: none;
+    
+        
+    }
+    
+    ul{
+        display: flex;
+        justify-content: flex-end;
+        gap: 0 3%;
+        
+    
+    }.logo{
+    
+    text-align: center;
+    
+    padding-top: 3vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+    text-align: center;
+    
+    }
+    .menu{
+      
+        padding-top: 4vh;
+    
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 0.75rem;
+      font-weight: 800;
+      letter-spacing: 0.0625em;
+      text-transform: uppercase
+    }
+    
+    img{
+        object-fit: cover; 
+        width: 100%;
+       height: 70vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    }
+    .header{
+      
+    width: 100%;
+      position: relative;
+      height: 70vh;
+    
+    
+      
+    }
+    .navigation{
+        position: absolute;
+        top: 0;
+        left:0;
+        width: 100%;
+        display:flex; 
+        justify-content: space-around;
+        z-index: 2;
+      
+    }
+    .img{
+       background-color: rgba(0, 0, 0, 0.397);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    
+    }
+    .img-word{
+     position: absolute;
+     top: 40%;
+    text-align: center;
+    
+    
+    }
+    .main-word{
+      text-align: center;
+      font-size: 5rem;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      line-height: 1.2;
+      color: white;
+      font-weight: 800;
+     
+    }
+    .description{
+      font-size: 1.8rem;
+        font-weight: 300;
+        line-height: 1.1;
+       color: white;
+        margin-top: 0.625rem;
+        font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+    .main{
+    padding: 4vh 0;
+      margin: 0 auto;
+     
+    
+    }
+    
+    
+    
+    .main p{
+      font-size: 1.4rem;
+      margin: 4vh 0;
+      font-weight: 400;
+      line-height: 1.5;
+      letter-spacing: 0.5px;
+    }
+    
+    .footer{
+      margin:4vh auto;
+    text-align: center;  
+    
+    }
+    
+    .twitter{
+      font-size: 23px;
+     color:white;
+    padding: 16px;
+    background-color: rgb(8, 8, 8);
+    border-radius: 50%;
+    margin-right: 2vh;
+    }
+    .facebook{
+      font-size: 23px;
+      color:white;
+     padding: 16px 20px;
+     background-color: rgb(8, 8, 8);
+     border-radius: 50%;
+     margin-right: 2vh;
+    }
+    .github{
+      font-size: 23px;
+     color:white;
+    padding: 16px;
+    background-color: rgb(8, 8, 8);
+    border-radius: 50%;
+    }
+    .icon{
+      margin: 6vh 0;
+     
+    }
+    .icon p{
+      color: #6c757d;
+      font-style: italic;
+      font-size: 18px;
+      margin-top: 2vh;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    }
+    hr{
+      background-color: rgb(202, 202, 202);
+      border-width: 0;
+      height: 1px;
+    }
+    
